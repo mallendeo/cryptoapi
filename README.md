@@ -13,7 +13,6 @@ $ PORT=9000 npm start
 
 ```bash
 $ npm run watch
-$ npm run watch
 ```
 
 ## Test

@@ -1,0 +1,25 @@
+{
+  "name": "cryptoapi",
+  "version": "1.0.0",
+  "description": "Websockets API for crypto markets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallendeo/cryptoapi.git"
+  },
+  "author": "mallendeo",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/mallendeo/cryptoapi/issues"
+  },
+  "homepage": "https://github.com/mallendeo/cryptoapi#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "socket.io": "^2.0.2"
+  }
+}

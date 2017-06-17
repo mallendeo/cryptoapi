@@ -44,23 +44,7 @@ const getCurrencies = async () => {
   return parsed
 }
 
-const normalizeMarkets = (markets, currencies) =>
-  markets.map(market =>
-    Object.assign({}, {
-      name: market.market,
-      exchange: 'poloniex',
-      last: market.last,
-      ask: market.lowestAsk,
-      bid: market.highestBid
-    }, (() => {
-      const { minConf, txFee, disabled } = currencies
-        .find(c => c.currency === market.market.split('_')[1])
-      return { minConf, txFee, active: !disabled }
-    })())
-  )
-
 module.exports = {
   getTicker,
-  getCurrencies,
-  normalizeMarkets
+  getCurrencies
 }

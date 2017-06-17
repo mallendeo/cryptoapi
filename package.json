@@ -20,6 +20,7 @@
   "homepage": "https://github.com/mallendeo/cryptoapi#readme",
   "dependencies": {
     "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
     "express": "^4.15.3",
     "lodash": "^4.17.4",
     "socket.io": "^2.0.2"

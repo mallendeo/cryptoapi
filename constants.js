@@ -24,7 +24,7 @@ const SOCKET_ERROR = 'api:error'
 const SOCKET_INFO = 'api:info'
 
 module.exports = {
-  events: {
+  channels: {
     MINDICADOR_USD_CLP: `${ROOM_MINDICADOR}:${EVENT_USD_CLP}`,
     CRYPTOMKT_ETH_CLP: `${ROOM_CRYPTOMKT}:${EVENT_ETH_CLP}`,
     SURBTC_BTC_CLP: `${ROOM_SURBTC}:${EVENT_BTC_CLP}`,
